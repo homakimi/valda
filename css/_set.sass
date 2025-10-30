@@ -1,0 +1,47 @@
+$dark: #008039
+$green: #1a923b
+$orange: #ffcc00
+$yellow: #feff06
+
+:root
+    --nav-height: 4rem
+
+
+@mixin font-huge
+    font-size: 2rem
+
+@mixin font-large
+    font-size: 1.5rem
+
+@mixin font-big
+    font-size: 1.25rem
+
+@mixin font-normal
+    font-size: 1rem
+
+@mixin font-small
+    font-size: 0.85rem
+
+@mixin centerAb
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+@mixin r($index)
+    border-radius: $index
+    -webkit-border-radius: $index
+
+@mixin circle
+    border-radius: 50%
+    -webkit-border-radius: 50%
+
+@mixin bgCover
+    background-repeat: no-repeat! important
+    background-position: center center! important
+    background-size: cover! important
+
+@mixin bgContain
+    background-repeat: no-repeat! important
+    background-position: center center! important
+    background-size: contain! important

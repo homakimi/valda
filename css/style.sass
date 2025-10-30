@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap')
+@import 'set'
+
+html 
+    font-size: 3.5vw
+    -webkit-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%
+    text-size-adjust: 100%
+
+body
+    position: relative
+    width: 100%
+    max-width: 1920px
+    margin: auto
+    background: #FFF
+    font-family: 'Noto Sans TC'
+    min-height: 100vh
+    &.fix
+        overflow: hidden
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+a 
+    text-decoration: none
+    color: inherit
+
+.fullimg 
+    display: block
+    width: 100%
+
+.fullimgHeight 
+    display: block
+    height: 100%
+    margin: auto
+
+.clear
+    clear: both
+
+input
+    background: none
+    border: 0
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    font-family: 'Noto Sans TC'
+    letter-spacing: 0.05rem
+    margin: 0 0.25rem
+    min-width: 10rem
+    padding: 0.5rem 1rem
+    border-bottom: 1px solid #DDD
+    +r(0)
+    +font-normal
+    &:focus
+        outline: none
+
+select
+    font-family: 'Noto Sans TC'
+    letter-spacing: 0.05rem
+    padding: 0.5rem 2rem 0.5rem 1rem
+    margin: 0 0.25rem
+    min-width: 10rem
+    background: url('../img/icon/icon-select.svg') no-repeat center right 0.75rem
+    background-size: auto 25%
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    border: 1px solid #DDD
+    color: inherit
+    +font-normal
+    +r(5px)
+
+input[type="checkbox"]
+    display: none
+
+input[type="checkbox"] + label
+    display: block
+    margin-left: 1.5rem
+    cursor: pointer
+    p
+        position: absolute
+        display: inline-block
+        top: 50%
+        left: 0
+        width: 1rem
+        height: 1rem
+        margin: 0
+        background-color: #FFF
+        transform: translateY(-45%)
+        border: 1px solid #FFF
+    span
+        display: inline-block
+
+input[type="checkbox"] + label a
+    border-bottom: 1px solid #FFF
+
+input[type="checkbox"] + label.alert p
+    border: 1px solid #F00
+
+input[type="checkbox"]:checked + label p
+    background-color: #000
+
+input::-webkit-date-and-time-value
+    color: #000
+    text-align: left
+
+
+ul
+    list-style: none
+    margin-left: 1rem
+    li
+        position: relative
+        &::before
+            position: absolute
+            content: '・'
+            left: -1rem
+
+
+@media only screen and (min-width: 640px)
+    html
+        font-size: 22.4px
