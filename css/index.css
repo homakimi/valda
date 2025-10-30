@@ -80,6 +80,9 @@ nav .menu-dropdown {
   height: 100%;
   top: 0;
   left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 1024revpx;
 }
 nav .menu-dropdown div {
   display: flex;
