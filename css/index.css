@@ -82,7 +82,7 @@ nav .menu-dropdown {
   left: 0;
   right: 0;
   margin: auto;
-  max-width: 1024revpx;
+  max-width: 1024px;
 }
 nav .menu-dropdown div {
   display: flex;
@@ -97,10 +97,12 @@ nav .menu-dropdown div {
 nav .menu-dropdown div .menu-logo {
   display: block;
   width: 25%;
+  max-width: 150px;
 }
 nav .menu-dropdown div a {
   display: block;
   width: 60%;
+  max-width: 400px;
 }
 
 .wrap {
