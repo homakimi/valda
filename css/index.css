@@ -39,7 +39,7 @@ nav {
   z-index: 1;
   position: fixed;
   width: 100%;
-  max-width: 1024px;
+  max-width: 640px;
   height: var(--nav-height);
   top: 0;
   left: 0;
@@ -82,7 +82,7 @@ nav .menu-dropdown {
   left: 0;
   right: 0;
   margin: auto;
-  max-width: 1024px;
+  max-width: 640px;
 }
 nav .menu-dropdown div {
   display: flex;
@@ -107,7 +107,7 @@ nav .menu-dropdown div a {
 
 .wrap {
   position: relative;
-  max-width: 1024px;
+  max-width: 640px;
   margin: auto;
   height: 100%;
 }
@@ -120,7 +120,7 @@ nav .menu-dropdown div a {
   left: 0;
   right: 0;
   width: 100%;
-  max-width: 1024px;
+  max-width: 640px;
   height: 100%;
   margin: auto;
   background: url("../img/bg.jpg") no-repeat center center;
