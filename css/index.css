@@ -241,6 +241,7 @@ nav .menu-dropdown div a {
   transform: translate(-50%, -50%);
 }
 .lightbox .lightbox-block .lightbox-close {
+  z-index: 1;
   display: block;
   position: absolute;
   width: 12%;
