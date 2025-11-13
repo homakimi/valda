@@ -143,8 +143,8 @@ ul li::before {
   left: -1rem;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 481px) {
   html {
-    font-size: 22.4px;
+    font-size: 16.8px;
   }
 }/*# sourceMappingURL=style.css.map */
